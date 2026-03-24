@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "243.21565.193",
+    "buildDate" : "2024-11-13T01:46:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2026-03-23T15:21:45.206399Z",
+    "os" : "macOS 15.7.4",
+    "runtime" : "JetBrains s.r.o. 21.0.5 21.0.5+8-b631.16"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "DJ Mixer",
+    "times" : {
+      "scanningReason" : "changes in: \"JDK jbr-21 /Users/vinhvox/Library/Java/JavaVirtualMachines/jbr-21.0.10/Contents/Home\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 1611494959,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 726582083,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 884821375,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 91027154,
+      "dumbModeStart" : "2026-03-23T15:21:44.317645Z",
+      "dumbWallTimeWithPauses" : 888242708,
+      "dumbWallTimeWithoutPauses" : 888242708,
+      "updatingStart" : "2026-03-23T15:21:43.586151Z",
+      "updatingEnd" : "2026-03-23T15:21:45.205887708Z",
+      "totalWallTimeWithPauses" : 1619736708,
+      "wallTimeOnPause" : 10000,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 1619726708
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 44762,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 44432
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK jbr-21 /Users/vinhvox/Library/Java/JavaVirtualMachines/jbr-21.0.10/Contents/Home",
+      "numberOfScannedFiles" : 44762,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 44432,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 741803069,
+      "totalOneThreadTimeWithPauses" : 1611494959,
+      "iterationAndScannersApplicationTime" : 726582083,
+      "filesCheckTime" : 884821375,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 281899484,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 91027154,
+      "roots" : [ ]
+    } ]
+  }
+}

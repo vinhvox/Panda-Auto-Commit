@@ -1,0 +1,94 @@
+{
+  "appInfo" : {
+    "build" : "243.21565.193",
+    "buildDate" : "2024-11-13T01:46:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2026-03-23T15:22:09.767823Z",
+    "os" : "macOS 15.7.4",
+    "runtime" : "JetBrains s.r.o. 21.0.5 21.0.5+8-b631.16"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "DJ Mixer",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'DJ Mixer.app' (all roots)\", \"Module 'DJ Mixer.googlebannerrefresh' (all roots)\", \"JDK jbr-21 /Users/vinhvox/Library/Java/JavaVirtualMachines/jbr-21.0.10/Contents/Home\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : -304000,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 698103584,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 65709292,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 631551459,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2026-03-23T15:22:09.122045Z",
+      "updatingEnd" : "2026-03-23T15:22:09.766684041Z",
+      "totalWallTimeWithPauses" : 644639041,
+      "wallTimeOnPause" : 304000,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 644335041
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 45430,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK jbr-21 /Users/vinhvox/Library/Java/JavaVirtualMachines/jbr-21.0.10/Contents/Home",
+      "numberOfScannedFiles" : 44762,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 556137533,
+      "totalOneThreadTimeWithPauses" : 635037084,
+      "iterationAndScannersApplicationTime" : 53820875,
+      "filesCheckTime" : 581162375,
+      "timeProcessingUpToDateFiles" : 240573463,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'DJ Mixer.app' (all roots)",
+      "numberOfScannedFiles" : 648,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 28804088,
+      "totalOneThreadTimeWithPauses" : 46178875,
+      "iterationAndScannersApplicationTime" : 7875167,
+      "filesCheckTime" : 38032292,
+      "timeProcessingUpToDateFiles" : 4573621,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'DJ Mixer.googlebannerrefresh' (all roots)",
+      "numberOfScannedFiles" : 20,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 7825581,
+      "totalOneThreadTimeWithPauses" : 16887625,
+      "iterationAndScannersApplicationTime" : 4013250,
+      "filesCheckTime" : 12356792,
+      "timeProcessingUpToDateFiles" : 475501,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

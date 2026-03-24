@@ -1,0 +1,70 @@
+<project version="4">
+  <component name="ExternalSystemProjectTracker"><![CDATA[{
+  "projectData": {
+    "GRADLE": {
+      "/Users/vinhvox/Documents/IceBear/app052-dj-mixer": {
+        "settingsTracker": {
+          "isDirty": false,
+          "settingsFiles": {
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/gradle.properties": 2761713893,
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/gradle/wrapper/gradle-wrapper.properties": 1991314383,
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/googlebannerrefresh/build.gradle.kts": 3181551600,
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/build.gradle.kts": 3854447768,
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/settings.gradle.kts": 1432724779,
+            "/Users/vinhvox/Documents/IceBear/app052-dj-mixer/app/build.gradle.kts": 3670548209
+          }
+        }
+      }
+    }
+  }
+}]]></component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="8.13" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="DJ Mixer" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="DJ Mixer" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":app" />
+                <option name="path" value="$PROJECT_DIR$/app" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":googlebannerrefresh" />
+                <option name="path" value="$PROJECT_DIR$/googlebannerrefresh" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="KotlinGradleFUSSettings">
+    <option name="gradleUserDirs" value="$USER_HOME$/.gradle" />
+  </component>
+  <component name="RestoreUpdateTree"><![CDATA[{}]]></component>
+</project>

@@ -1,0 +1,33 @@
+
+<idea-plugin>
+<id>com.vio.panda_commit</id>
+<name>Panda Auto Commit</name>
+<vendor email="vinhvohoang1410@gmail.com" url="https://www.facebook.com/vinhvox1410">Panda Team</vendor>
+
+<description><![CDATA[
+      Automates Git commit messages using Google's Gemini AI. Developed by ViO
+    ]]></description>
+
+<depends>com.intellij.modules.platform</depends>
+<depends>com.intellij.modules.vcs</depends>
+
+<extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="com.viotech.auto.GeminiSettingsState"/>
+
+    <applicationConfigurable parentId="tools"
+                             instance="com.viotech.auto.GeminiSettingsConfigurable"
+                             id="GeminiSettingsConfigurable"
+                             displayName="Panda Commit Auto"/>
+</extensions>
+
+<actions>
+    <action id="PandaCommitAction"
+            class="com.viotech.auto.GenerateCommitAction"
+            text="Generate Commit Message with AI"
+            description="Uses Gemini AI to generate a commit message">
+        <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
+
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
+    </action>
+</actions>
+</idea-plugin>

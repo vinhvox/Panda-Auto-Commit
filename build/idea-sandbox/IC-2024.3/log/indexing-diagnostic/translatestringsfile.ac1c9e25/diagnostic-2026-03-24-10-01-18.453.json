@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "243.21565.193",
+    "buildDate" : "2024-11-13T01:46:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2026-03-24T03:01:18.454187Z",
+    "os" : "macOS 15.7.4",
+    "runtime" : "JetBrains s.r.o. 21.0.5 21.0.5+8-b631.16"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "TranslateStringsFile",
+    "times" : {
+      "scanningReason" : "changes in: \"Library Gradle: org.apache.httpcomponents:httpclient:4.5.14 (#1 class roots, #1 source roots)\", \"Library Gradle: org.apache.httpcomponents:httpcore:4.4.16 (#1 class roots, #1 source roots)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : -236000,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 38757458,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 2980917,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 35679791,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2026-03-24T03:01:18.423872Z",
+      "updatingEnd" : "2026-03-24T03:01:18.45342525Z",
+      "totalWallTimeWithPauses" : 29553250,
+      "wallTimeOnPause" : 236000,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 29317250
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 1434,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Library Gradle: org.apache.httpcomponents:httpclient:4.5.14 (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 911,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 20227142,
+      "totalOneThreadTimeWithPauses" : 23413250,
+      "iterationAndScannersApplicationTime" : 1484542,
+      "filesCheckTime" : 21877416,
+      "timeProcessingUpToDateFiles" : 5314588,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.apache.httpcomponents:httpcore:4.4.16 (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 523,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 13246919,
+      "totalOneThreadTimeWithPauses" : 15344208,
+      "iterationAndScannersApplicationTime" : 1496375,
+      "filesCheckTime" : 13802375,
+      "timeProcessingUpToDateFiles" : 2823040,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

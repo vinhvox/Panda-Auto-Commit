@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#EAF3FF"/>
+            <stop offset="100%" stop-color="#F3F8FF"/>
+        </linearGradient>
+        <linearGradient id="barGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#4DA3FF"/>
+            <stop offset="100%" stop-color="#0A66D6"/>
+        </linearGradient>
+        <linearGradient id="lineGrad" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="#1E90FF"/>
+            <stop offset="100%" stop-color="#004BA8"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect x="0" y="0" width="40" height="40" rx="6" fill="url(#bgGrad)" stroke="#0E5DB7" stroke-opacity="0.2" stroke-width="1"/>
+    
+    <!-- Chart content -->
+    <g transform="translate(6,8)">
+        <!-- Baseline -->
+        <rect x="0" y="22" width="28" height="1" fill="#1A3F7A" opacity="0.3"/>
+        
+        <!-- Bars -->
+        <rect x="2" y="16" width="4" height="6" rx="1" fill="url(#barGrad)"/>
+        <rect x="8" y="12" width="4" height="10" rx="1" fill="url(#barGrad)"/>
+        <rect x="14" y="14" width="4" height="8" rx="1" fill="url(#barGrad)"/>
+        <rect x="20" y="8" width="4" height="14" rx="1" fill="url(#barGrad)"/>
+        
+        <!-- Line chart -->
+        <polyline points="4,18 10,14 16,16 22,10" fill="none" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round"/>
+        
+        <!-- Data points -->
+        <circle cx="4" cy="18" r="1.5" fill="#FFFFFF" stroke="#0A66D6" stroke-width="1"/>
+        <circle cx="10" cy="14" r="1.5" fill="#FFFFFF" stroke="#0A66D6" stroke-width="1"/>
+        <circle cx="16" cy="16" r="1.5" fill="#FFFFFF" stroke="#0A66D6" stroke-width="1"/>
+        <circle cx="22" cy="10" r="1.5" fill="#FFFFFF" stroke="#0A66D6" stroke-width="1"/>
+    </g>
+</svg>

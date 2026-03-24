@@ -1,0 +1,115 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="2" l="1764412065132" />
+    </e>
+    <e n="$Delete">
+      <i c="5" l="1766679554576" />
+    </e>
+    <e n="$Paste">
+      <i c="2" l="1764412130074" />
+    </e>
+    <e n="$SelectAll">
+      <i c="6" l="1764581089015" />
+    </e>
+    <e n="$Undo">
+      <i c="12" l="1764414667305" />
+    </e>
+    <e n="ActivateCommitToolWindow">
+      <i c="1" l="1774279135091" />
+    </e>
+    <e n="ActivateRunToolWindow">
+      <i c="1" l="1764415303561" />
+    </e>
+    <e n="Debug">
+      <i c="2" l="1764415264841" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="21" l="1766681633150" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="7" l="1764414845799" />
+    </e>
+    <e n="EditorCopy">
+      <i c="15" l="1774321557164" />
+    </e>
+    <e n="EditorDown">
+      <i c="4" l="1764414844556" />
+    </e>
+    <e n="EditorEnter">
+      <i c="5" l="1764417564393" />
+    </e>
+    <e n="EditorPaste">
+      <i c="17" l="1774280537263" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="2" l="1774321286457" />
+    </e>
+    <e n="ExternalSystem.RunTask">
+      <i c="2" l="1774321722838" />
+    </e>
+    <e n="Find">
+      <i c="1" l="1764416462440" />
+    </e>
+    <e n="FindInPath">
+      <i c="3" l="1764416462850" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="8" l="1764420513844" />
+    </e>
+    <e n="Gradle.ToolbarDependencyAnalyzer">
+      <i c="1" l="1764410952588" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1774279280456" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1774321747417" />
+    </e>
+    <e n="Run">
+      <i c="19" l="1766679628001" />
+    </e>
+    <e n="SelectInProjectView">
+      <i c="2" l="1764414779726" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1774321241015" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="1" l="1764415061431" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="4" l="1764418143174" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1764410747705" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="1" l="1774321242516" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeErrorsDialog$BackAction">
+      <i c="2" l="1764414519501" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeErrorsDialog$ForwardAction">
+      <i c="4" l="1766682625016" />
+    </e>
+    <e n="com.intellij.ide.plugins.DynamicPluginVfsListener$prepareChange$2$afterVfsChange$1$1">
+      <i c="3" l="1766679664425" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="8" l="1774321752265" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1764410957597" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="20" l="1774321748508" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="5" l="1774279133249" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="4" l="1774279131741" />
+    </e>
+  </component>
+</application>

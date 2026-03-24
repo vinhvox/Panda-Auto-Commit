@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/IceBear/app052-dj-mixer" value="true" />
+        <entry key="$USER_HOME$/Documents/research/TranslateStringsFile/TranslateStringsFile" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

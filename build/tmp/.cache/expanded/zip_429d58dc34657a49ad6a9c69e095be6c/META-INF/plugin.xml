@@ -1,0 +1,13 @@
+<idea-plugin>
+  <idea-version since-build="243.21565" until-build="243.*" />
+  <version>0.1.0</version>
+  <id>com.viotech.strings.translator</id>
+  <name>Strings Translator</name>
+  <vendor>VioTech</vendor>
+  <depends>com.intellij.modules.platform</depends>
+  <actions>
+    <action id="TranslateStringsFile" class="com.viotech.plugin.actions.GenerateTranslatedStringsAction" text="Generate Translated Languages" description="Generate translated values-xx for this strings.xml">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last" />
+    </action>
+  </actions>
+</idea-plugin>
