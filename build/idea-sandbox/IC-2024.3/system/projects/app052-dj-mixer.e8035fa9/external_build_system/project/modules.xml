@@ -1,9 +1,0 @@
-<project>
-  <component name="ExternalProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DJ_Mixer.iml" filepath="$PROJECT_DIR$/.idea/modules/DJ_Mixer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DJ_Mixer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DJ_Mixer.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/googlebannerrefresh/DJ_Mixer.googlebannerrefresh.iml" filepath="$PROJECT_DIR$/.idea/modules/googlebannerrefresh/DJ_Mixer.googlebannerrefresh.iml" />
-    </modules>
-  </component>
-</project>

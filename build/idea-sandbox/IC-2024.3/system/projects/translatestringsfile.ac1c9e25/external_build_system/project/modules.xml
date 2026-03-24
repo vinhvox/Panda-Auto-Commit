@@ -1,9 +1,0 @@
-<project>
-  <component name="ExternalProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.iml" filepath="$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Panda_Auto_Commit.test.iml" />
-    </modules>
-  </component>
-</project>

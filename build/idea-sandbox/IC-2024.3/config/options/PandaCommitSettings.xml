@@ -1,6 +1,0 @@
-<application>
-  <component name="PandaCommitSettings">
-    <option name="apiKey" value="AIzaSyCIYupFBl_xkHPrq49sOTmJO_xGENWEYUw" />
-    <option name="customRoleText" value="You are an expert developer. Write a concise Conventional Commit message based on the provided git diff. Do NOT wrap the response in markdown blocks like ```. Just return the raw text." />
-  </component>
-</application>
