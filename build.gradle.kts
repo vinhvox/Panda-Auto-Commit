@@ -4,7 +4,8 @@ plugins {
 }
 
 group = "com.viotech"
-version = "0.0.1"
+// 1. CẬP NHẬT PHIÊN BẢN (Bắt buộc khi upload bản mới)
+version = "0.0.5"
 
 repositories {
     google()
@@ -25,6 +26,11 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.google.code.gson:gson:2.10.1")
+}
+
+tasks.patchPluginXml {
+    sinceBuild.set("241")
+    untilBuild.set("253.*")
 }
 
 tasks.withType<org.jetbrains.intellij.platform.gradle.tasks.BuildSearchableOptionsTask>().configureEach {

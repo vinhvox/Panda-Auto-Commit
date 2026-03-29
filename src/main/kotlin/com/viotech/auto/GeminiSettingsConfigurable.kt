@@ -19,7 +19,6 @@ class GeminiSettingsConfigurable : Configurable {
         customRoleArea.wrapStyleWord = true
         val scrollPane = JScrollPane(customRoleArea)
 
-        // Cập nhật trạng thái bật/tắt của ô nhập text khi tick checkbox
         useCustomRoleCheckbox.addActionListener {
             customRoleArea.isEnabled = useCustomRoleCheckbox.isSelected
             if (!useCustomRoleCheckbox.isSelected) {

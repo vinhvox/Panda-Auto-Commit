@@ -24,7 +24,8 @@
     <action id="PandaCommitAction"
             class="com.viotech.auto.GenerateCommitAction"
             text="Generate Commit Message with AI"
-            description="Uses Gemini AI to generate a commit message">
+            description="Uses Gemini AI to generate a commit message"
+            icon="/META-INF/panda_commit.svg">
         <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
 
         <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
