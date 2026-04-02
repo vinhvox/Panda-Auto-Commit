@@ -5,7 +5,7 @@ plugins {
 
 group = "com.viotech"
 // 1. CẬP NHẬT PHIÊN BẢN (Bắt buộc khi upload bản mới)
-version = "0.0.5"
+version = "0.0.6"
 
 repositories {
     google()

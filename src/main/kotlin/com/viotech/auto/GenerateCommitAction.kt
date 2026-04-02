@@ -34,20 +34,27 @@ class GenerateCommitAction : AnAction() {
             return
         }
 
-         val defaultRoleText = """
-        You are an expert developer. I will provide you with git diffs of multiple files. 
-        Instead of writing one single summary, you MUST analyze and write a commit message for EACH file separately.
+        val defaultRoleText = """
+            You are an expert Android developer. I will provide you with git diffs from multiple related files.
+            Your task is to write ONE cohesive Conventional Commit message for the entire update.
 
-        Format your response EXACTLY like this structure for each file:
+            CRITICAL INSTRUCTIONS:
+            1. MUST include a short, contextual scope in parentheses (e.g., ads, ui, auth, core, db).
+            2. The subject MUST start with a lowercase letter and use the imperative mood (e.g., "update ad config", not "Update" or "Updated").
+            3. Prioritize logic changes to determine the overarching subject.
+            4. Group all .xml file changes into a single bullet point: "- Updated UI layouts and resources". Do NOT detail XML changes or list XML file names.
+            5. Keep bullet points concise. Avoid repeating file names excessively if the overall context is clear.
 
-        File: [File Name]
-        Title: [type]([scope]): [subject]
-        Description:
-        - [Brief detail of change 1]
-        - [Brief detail of change 2]
+            Format exactly like this:
+            Title: type(scope): subject
+            Description:
+            - [Brief logic change 1 without repeating file names]
+            - [Brief logic change 2]
+            - Updated UI layouts and resources (if any .xml files were changed)
 
-        Do NOT include any general intro or outro. Do NOT wrap the response in markdown code blocks. Return ONLY the raw text.
-    """.trimIndent()
+            Return ONLY the raw text. Do NOT wrap in ```.
+        """.trimIndent()
+
         val settings = GeminiSettingsState.instance
         val apiKey = settings.apiKey
         val role = if (settings.useCustomRole) settings.customRoleText else defaultRoleText
@@ -105,6 +112,12 @@ class GenerateCommitAction : AnAction() {
             val fileName = change.virtualFile?.name ?: change.beforeRevision?.file?.name ?: continue
 
             sb.append("--- $fileName ---\n")
+
+            // 💡 ĐÃ CẬP NHẬT: Chặn không gửi chi tiết XML để tiết kiệm token và tránh nhiễu AI
+            if (fileName.endsWith(".xml")) {
+                sb.append("[This is a UI/Resource file. Do not detail its changes. Group it as 'Updated UI/resources']\n\n")
+                continue
+            }
 
             val before = try { change.beforeRevision?.content ?: "" } catch (e: Exception) { "" }
             val after = try { change.afterRevision?.content ?: "" } catch (e: Exception) { "" }
